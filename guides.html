@@ -22,10 +22,7 @@
 		<script src="https://use.fontawesome.com/0fc3d1ae27.js"></script>
 
        	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Muli|Oxygen|Poppins|Quicksand|Roboto" rel="stylesheet">
-		<style>
-			
-
-		</style>
+		<link rel="stylesheet" href="assets/custom-css/base.css">
 	</head>
 	<body>
          <div id="body">
@@ -38,7 +35,11 @@
 								<li class="stack-filter">
                                     <div class="btn-group bootstrap-select show-tick form-control">
                                         <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="stacks" title="Filter by stacks">
-                                            <span class="filter-option pull-left">Filter by stacks</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span>
+                                            <span class="filter-option pull-left">Filter by stacks</span>
+                                            &nbsp;
+                                            <span class="bs-caret">
+                                                <span class="caret"></span>
+                                            </span>
                                         </button>
                                         <div class="dropdown-menu open">
                                             <div class="popover-title">
@@ -46,7 +47,18 @@
                                             </div>
                                             <ul class="dropdown-menu inner" role="menu">
                                                 <li data-original-index="0">
-                                                    <a tabindex="0"  data-tokens="null"><span class="text">Java and J2EE</span><span class="glyphicon glyphicon-ok check-mark"></span>
+                                                    <a tabindex="0"  data-tokens="null"><span class="text">Java and J2EE</span>
+                                                    <span class="glyphicon glyphicon-ok check-mark"></span>
+                                                    </a>
+                                                </li>
+                                                <li data-original-index="0">
+                                                    <a tabindex="0"  data-tokens="null"><span class="text">Java and J2EE 2</span>
+                                                    <span class="glyphicon glyphicon-ok check-mark"></span>
+                                                    </a>
+                                                </li>
+                                                <li data-original-index="0">
+                                                    <a tabindex="0"  data-tokens="null"><span class="text">Java and J2EE 3</span>
+                                                    <span class="glyphicon glyphicon-ok check-mark"></span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -54,7 +66,8 @@
                                     <select id="stacks" name="stacks" class="form-control selectpicker" data-header="Scroll for additional stacks" data-size="10" data-dropup-auto="false" data-title="Filter by stacks" data-selected-text-format="count > 0" multiple="" onchange="filter()" style="display: none;" tabindex="-98">
                                             
                                         <option value="Java and J2EE">Java and J2EE</option>
-
+                                        <option value="Java and J2EE">Java and J2EE 2</option>
+                                        <option value="Java and J2EE">Java and J2EE 3</option>
                                     </select>
                                 </div>
                             </li>
@@ -85,9 +98,9 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="heart-info heart col-xs-1">
+                                        <!--<div class="heart-info heart col-xs-1">
                                             <span class="heart-count">2</span>
-                                        </div>
+                                        </div>-->
                                         <p class="col-xs-11 article-author">
                                             <img src="https://avatars5.githubusercontent.com/u/198511?v=4&amp;s=100" alt="">
                                             <span class="name">Károly Nyisztor</span>

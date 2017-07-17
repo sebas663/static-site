@@ -1,0 +1,567 @@
+html {
+        height: 100%;
+    }
+
+body {
+    font-family: 'Quicksand', sans-serif; 
+    letter-spacing: -.015em;
+}
+
+/* Mimic Pluralsight.com styling */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 19px;
+}
+
+h6 {
+    font-size: 19px;
+}
+
+
+#header-white {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 1px solid #ffffff; 
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+
+#navbar a {
+    font-weight: 300;
+}
+
+#header-white .navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff; 
+}
+
+#header-white #navbar a, #header-white #navbar a:visited, #header-white #navbar a:focus {
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+#header-white .emphasize {
+    border: 1px solid #000000;
+}
+
+#header-white #navbar a:hover {
+    color: #05b710;
+}
+
+/* Overwrite bootstrap default icon bar to make it show up on white background */
+#header-white .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+
+.emphasize {
+    border: 1px solid #ffffff;
+    padding: 15px;
+}
+
+#navbar a.emphasize {
+    /* Align words with other links */
+    margin-top: 6px;
+    padding: 9px 35px 9px 35px;
+}
+
+a, a:visited, a:hover, a:focus {
+    color: #05b710;
+    text-decoration: none;
+}
+
+#title {
+    clear: left;
+    padding-top: 20px;
+}
+
+#table-of-contents {
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#table-of-contents ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#table-of-contents h4 {
+    font-size: 15px;
+    color: #b0b0b0;
+}
+
+#table-of-contents a,
+#table-of-contents a:visited,
+#table-of-contents a:focus {
+    color: #b0b0b0;
+}
+
+#table-of-contents a:hover {
+    color: #05b710;
+}
+
+#article-header {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#article-header img {
+    float: left;
+    margin-top: 10px;
+}
+
+#article-header h2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+#article-header h3 {
+    clear: left;
+    position: absolute;
+    /* based on size of article image */
+    left: 50px;
+    top: 0px;
+    font-size: 16px;
+}
+
+
+#body {
+    background-color: #ffffff;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+#hero + #body {
+    background-color: #171717;
+    color: #ffffff;
+}
+
+.body-dark {
+    background-color: #171717;
+    color: #ffffff;
+}
+
+#article-list {
+    background-color: #222222;
+    padding: 15px;
+    min-height: 250px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+#article-list .nav {
+    border-bottom: 1px solid #656466;
+    color: #888888;
+}
+
+#article-list .nav > li {
+    float: left;
+}
+
+#stacks {
+    color: #696969;
+    font-size: 14px;
+}
+
+/* Stack filter box */
+#article-list .form-control {
+    background-color: #222222;
+}
+
+#article-list .btn-default {
+    background-color: #222222;
+    border: none;
+    font-size: 14px;
+    color: #696969;
+    padding-top: 10px;
+}
+
+/* Help on stack filter box */
+#article-list .popover-title {
+    background-color: #222222;
+    border-bottom: 1px solid #696969;
+}
+
+#article-list .dropdown-menu {
+    background-color: #222222;
+}
+
+/* 'X' button on stack filter box */
+#article-list .dropdown-menu .close {
+    color: #ffffff;
+}
+
+#article-list .dropdown-menu li a:hover {
+    background-color: #696969;
+}
+
+#article-list .nav li a.active, #article-list .nav li a.active:visited, #article-list .nav li a.active:focus, #article-list .nav li.active:hover {
+    color: #ffffff;
+    background-color: #222222;
+    border-bottom: 5px solid #f96816;
+    font-weight: 500;
+}
+
+#article-list .nav li a, #article-list .nav li a:visited, #article-list .nav li a:focus, #article-list .nav li:hover {
+    color: #ffffff;
+    background-color: #222222;
+}
+
+/* Override button size for the bootstrap-select buttons to account for our
+ * font. It defaults to 14px which is a bit too big for the default dropdown
+ * text. */
+.bootstrap-select .btn {
+    font-size: 12px;
+}
+.btn {
+    border-radius: 0;
+}
+
+#header-dark #navbar .dropdown-menu a,
+#header-dark #navbar .dropdown-menu a:visited,
+#header-dark #navbar .dropdown-menu a:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.article-teaser {
+    background-color: #2d2d2d;
+    margin-right: 30px;
+    margin-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+.article-teaser img.thumbnail {
+    display: block;
+    border: none;
+}
+
+@media(max-width:992px) {
+    .article-teaser {
+        margin-left: 30px;
+    }
+    .load-guides {
+        margin-left: 45px;
+    }
+}
+
+.article-teaser:hover {
+    color: #f96816;
+    background-color: #414042;
+}
+
+.article-teaser .article-author {
+    color: #888888;
+    font-size: 16px;
+    padding-right: 10px;
+    position: relative;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.article-teaser .heart-info {
+    position: relative;
+    top: 45px;
+    margin-left: 35px;
+}
+
+.article-teaser .heart-info .heart-count {
+    color: #ffffff;
+    position: absolute;
+    left: 30px;
+    font-size: 10px;
+    margin-left: -5px;
+}
+
+.article-teaser .article-author span.name {
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    font-size: 15px;
+}
+
+.article-teaser .article-author span.gh-name {
+    position: absolute;
+    top: 25px;
+    font-size: 12px;
+}
+
+.article-teaser .article-author img {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 26px;
+}
+
+/* Allow entire article teaser to be clickable */
+.article-teaser span.clickable {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.article-teaser .title {
+    color: #ffffff;
+    font-size: 17px;
+    min-height: 140px;
+    font-weight: 500;
+}
+
+.article-teaser hr {
+    /* override bootstrap defaults */
+    border-top: 1px solid #000000;
+}
+
+.article-description {
+    /* Based off of article-teaser height. Forces the hr and link inside teaser
+    * to show up in uniform place regardless of title length. */
+    height: 100px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    padding: 15px 0px 15px 15px;
+}
+
+.article-description img {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer {
+    /* Necessary to make sure table of contents z-index flows behind this. */
+    position: relative;
+    z-index: 2;
+    padding: 30px 15px 15px 15px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+#footer a, #footer a:focus, #footer a:visited {
+    color: #ffffff;
+}
+
+#footer a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer img {
+    margin-bottom: 10px;
+}
+
+#footer .social-links {
+    padding-top: 10px;
+}
+
+#footer .social-links img {
+    margin-right: 15px;
+}
+#footer-logo-1 {
+    display: block;
+}
+
+@media(min-width:992px) {
+    #footer #signup #email {
+        /* Force bigger width when in same row as stacks box. */
+        width: 210px;
+    }
+
+    .article-teaser .article-author span.gh-name {
+        right: 70px;
+    }
+
+    #featured .article-details p.cta-text {
+        color: #05b710;
+    }
+
+    #featured .article-details p.heart-info {
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:992px) {
+    .affix {
+        position: static;
+    }
+
+    #user-info h4 {
+        margin-top: 20px;
+    }
+
+    #article-sidebar {
+        text-align: center;
+    }
+
+    #article-sidebar .emphasize-dark {
+        display: inline;
+    }
+
+    #article-sidebar .hr-container {
+        width: 100%;
+    }
+
+    #article {
+        margin-top: 40px;
+    }
+
+    .article-description {
+        height: 110px;
+    }
+
+    .article-teaser img.thumbnail {
+        display: none;
+    }
+
+    .article-teaser .article-author {
+        font-size: 14px;
+    }
+
+    .article-teaser .article-author span.gh-name {
+        position: absolute;
+        top: 25px;
+        right: 55px;
+    }
+
+    .article-teaser .article-author {
+        height: 40px;
+    }
+
+    .article-teaser .article-author img {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    #featured h1 {
+        font-size: 36px;
+    }
+
+    #featured img {
+        margin-left: 5px;
+    }
+
+    .article-teaser {
+        margin-left: 0px;
+    }
+
+    #footer .form-group-sm {
+        margin: 10px auto;
+    }
+
+    #footer #signup .form-group {
+        width: auto;
+    }
+
+    #title {
+        font-size: 32px;
+        padding-top: 40px;
+    }
+
+    .markdown-body h1 {
+        font-size: 32px;
+    }
+
+    .markdown-body h2 {
+        font-size: 27px;
+    }
+
+    .markdown-body h3 {
+        font-size: 19px;
+    }
+
+    .markdown-body h4 {
+        font-size: 15px;
+    }
+
+    .markdown-body h5 {
+        font-size: 27px;
+    }
+
+    .markdown-body h6 {
+        font-size: 12px;
+    }
+
+    .lead {
+        font-size: 30px;
+    }
+
+    /* Remove push on article text due to octicon link on mobile, there's no
+    * hover here. */
+    #article p {
+        padding-left: 0px;
+    }
+
+    #article pre, #article blockquote, #article form {
+        margin-left: 0px;
+    }
+
+    .close-btn {
+        top: 10px;
+        right: 5px;
+    }
+
+    /* Clear social share buttons that show up at bottom on mobile. */
+    #signup-row {
+        bottom: 50px;
+    }
+}
+
+
+@media(min-width:1170px) {
+    #article-sidebar {
+        /* Avoid sidebar overflowing at really wide resolutions */
+        max-width: 200px;
+    }
+
+    #footer-logo-1 {
+        display: none;
+    }
+
+    #footer-logo-2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-autosize {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    }
+}
