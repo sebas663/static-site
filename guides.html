@@ -22,14 +22,44 @@
 		<![endif]-->  
 		<link rel="stylesheet" href="https://use.fontawesome.com/9592a7c427.css">
 		
-
        	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Muli|Oxygen|Poppins|Quicksand|Roboto" rel="stylesheet">
 		
 	</head>
 	<body>
-         <div id="hero">
-            
+        <div id = "header-white" class = "page-header">
+            <nav id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"> 
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
 
+                    <div id="navbar" class="navbar-collapse collapse" >
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/guides/faq">Our Mission</a></li>
+                            <li><a href="/guides/in-review">Review</a></li>
+                            <li><a href="/guides/contributors">Contributors</a></li>
+                            <li><a href="/guides/login" class="cta-text">Sign in with Github</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+         <div id="hero">
+             <div class="container">
+                <div class="jumbotron">
+                    <h1>Bootstrap Tutorial</h1> 
+                    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+                    responsive, mobile-first projects on the web.</p> 
+                </div>
+                <p>This is some text.</p> 
+                <p>This is another text.</p> 
+                </div>
         </div>
 
          <div id="body">
@@ -43,15 +73,15 @@
                                 </li>
 								<li class="stack-filter">
                                     <div class="btn-group bootstrap-select show-tick form-control">
-                                        <button type="button" 
+                                        <!--<button type="button" 
                                                 class="btn dropdown-toggle btn-default" 
                                                 data-toggle="dropdown" 
                                                 data-id="stacks" 
                                                 title="Filter by stacks">
                                             <span class="filter-option pull-left">Filter by stacks</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span>
-                                        </button>
-                                        <div class="dropdown-menu open">
-                                            <div class="popover-title"><button type="button" class="close">×</button>Scroll for additional stacks</div>
+                                        </button>-->
+                                        <!--<div class="dropdown-menu open">
+                                            <div class="popover-title"><button type="button" class="close">×</button>Scroll for additional stacks</div>-->
                                             <!--<ul class="dropdown-menu inner">
                                                 <li data-original-index="0">
                                                     <a tabindex="0"  data-tokens="null"><span class="text">Java and J2EE</span>
@@ -69,7 +99,7 @@
                                                     </a>
                                                 </li>
                                             </ul>-->
-                                        </div>
+                                        <!--</div>-->
                                         <select id="stacks" 
                                                 name="stacks" 
                                                 class="form-control selectpicker" 
@@ -96,6 +126,108 @@
 
 
                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="row article-row">
+                            <div class="col-sm-3 col-md-offset-1 article-teaser" data-row-id="0">
+                                <a href="/guides/swift/protocol-oriented-programming-in-swift">
+                                    <span class="clickable"></span>
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <span class="stack" style="display: none;">swift</span>
+                                            <div class="article-description">
+                                                <img src="guides/static/img/stack_images/node-js.png" width="40" height="43" alt="swift">
+                                            </div><!-- description -->
+                                        </div><!-- col -->
+                                        <div class="col-xs-8 article-description title">
+                                            <p> Protocol Oriented Programming in Swift</p>
+                                        </div><!-- col -->
+                                    </div> <!-- row -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <!--<div class="heart-info heart col-xs-1">
+                                            <span class="heart-count">2</span>
+                                        </div>-->
+                                        <p class="col-xs-11 article-author">
+                                            <img src="https://avatars5.githubusercontent.com/u/198511?v=4&amp;s=100" alt="">
+                                            <span class="name">Károly Nyisztor</span>
+                                            <span class="gh-name">@nyisztor</span>                                                   
+                                        </p>
+                                    </div> <!-- row -->
+                                </a><!-- clickable -->
+                            </div> <!-- teaser col -->
+                            
+                            <div class="col-sm-3 article-teaser" data-row-id="1">
+                                <a href="/guides/swift/protocol-oriented-programming-in-swift">
+                                    <span class="clickable"></span>
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <span class="stack" style="display: none;">swift</span>
+                                            <div class="article-description">
+                                                <img src="guides/static/img/stack_images/node-js.png" width="40" height="43" alt="swift">
+                                            </div><!-- description -->
+                                        </div><!-- col -->
+                                        <div class="col-xs-8 article-description title">
+                                            <p> Protocol Oriented Programming in Swift</p>
+                                        </div><!-- col -->
+                                    </div> <!-- row -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="heart-info heart col-xs-1">
+                                            <span class="heart-count">2</span>
+                                        </div>
+                                        <p class="col-xs-11 article-author">
+                                            <img src="https://avatars5.githubusercontent.com/u/198511?v=4&amp;s=100" alt="">
+                                            <span class="name">Károly Nyisztor</span>
+                                            <span class="gh-name">@nyisztor</span>                                                   
+                                        </p>
+                                    </div> <!-- row -->
+                                </a><!-- clickable -->
+                            </div> <!-- teaser col -->
+
+                            <div class="col-sm-3 article-teaser" data-row-id="2">
+                                <a href="/guides/swift/protocol-oriented-programming-in-swift">
+                                    <span class="clickable"></span>
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <span class="stack" style="display: none;">swift</span>
+                                            <div class="article-description">
+                                                <img src="guides/static/img/stack_images/node-js.png" width="40" height="43" alt="swift">
+                                            </div><!-- description -->
+                                        </div><!-- col -->
+                                        <div class="col-xs-8 article-description title">
+                                            <p> Protocol Oriented Programming in Swift</p>
+                                        </div><!-- col -->
+                                    </div> <!-- row -->
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="heart-info heart col-xs-1">
+                                            <span class="heart-count">2</span>
+                                        </div>
+                                        <p class="col-xs-11 article-author">
+                                            <img src="https://avatars5.githubusercontent.com/u/198511?v=4&amp;s=100" alt="">
+                                            <span class="name">Károly Nyisztor</span>
+                                            <span class="gh-name">@nyisztor</span>                                                   
+                                        </p>
+                                    </div> <!-- row -->
+                                </a><!-- clickable -->
+                            </div> <!-- teaser col -->
+                            
+                        </div> <!-- inner-row -->
+                    </div> <!-- col-md-12 -->
+                </div> <!-- outer-row -->
+                 <div class="row">
                     <div class="col-md-12">
                         <div class="row article-row">
                             <div class="col-sm-3 col-md-offset-1 article-teaser" data-row-id="0">
