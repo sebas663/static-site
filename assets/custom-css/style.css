@@ -303,6 +303,7 @@ header .navbar {
   content: " ";
   -webkit-animation: wiggle 0.5s linear 0s infinite alternate;
   -moz-animation: wiggle 0.5s linear 0s infinite alternate;
+  -ms-animation: wiggle 0.5s linear 0s infinite alternate;
   -o-animation: wiggle 0.5s linear 0s infinite alternate;
   animation: wiggle 0.5s linear 0s infinite alternate;
 }
