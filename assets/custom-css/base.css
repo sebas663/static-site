@@ -157,6 +157,34 @@ h6 {
   animation: wiggle 0.5s linear 0s infinite alternate;
 }
 
+.owl-theme .owl-nav {
+  /*default owl-theme theme reset .disabled:hover links */
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+#blog-post.owl-theme {
+  position: relative;
+}
+#blog-post.owl-theme .owl-next,
+#blog-post.owl-theme .owl-prev {
+  width: 22px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+}
+#blog-post.owl-theme .owl-prev {
+  left: 10px;
+}
+#blog-post.owl-theme .owl-next {
+  right: 10px;
+}
+
 #features {
   padding: 100px 0 0;
 }
