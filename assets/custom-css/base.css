@@ -318,6 +318,11 @@ h6 {
     color: #05b710;
 }
 
+.navbar-brand {
+  padding: 0;
+  height: auto;
+}
+
 /* Overwrite bootstrap default icon bar to make it show up on white background */
 #header-white .navbar-toggle .icon-bar {
     background-color: #000000;
