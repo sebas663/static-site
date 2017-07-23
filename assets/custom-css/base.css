@@ -75,10 +75,12 @@ h6 {
    ================= */
 #banner {
   /*background: url('../img/banner.jpg');*/
+  background: url('../img/logo.png');
   background-size: cover;
   padding: 250px 0;
   position: relative;
 }
+
 #banner:before {
   position: absolute;
   z-index: 99;
@@ -89,22 +91,26 @@ h6 {
   bottom: 0;
   content: '';
 }
+
 #banner .block {
   position: relative;
   z-index: 999;
   color: #fff;
 }
+
 #banner .block h1 {
   padding-bottom: 25px;
   font-size: 55px;
   font-weight: 100;
   color: #80d6a3;
 }
+
 #banner .block h2 {
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
 }
+
 #banner .block .btn-learn {
   border: 1px solid #fff;
   color: #fff;
@@ -114,21 +120,26 @@ h6 {
   font-size: 14px;
   transition: 0.3s;
 }
+
 #banner .block .btn-learn:hover {
   border-color: #80d6a3;
   color: #80d6a3;
 }
+
 #banner .block .buttons {
   margin-top: 40px;
 }
+
 #banner .block .buttons a:first-child {
   margin-left: 0;
 }
+
 #banner .scrolldown {
   position: absolute;
   left: 50%;
   bottom: 18%;
 }
+
 #banner .scrolldown .scroll {
   border-radius: 100px;
   width: 25px;
@@ -140,6 +151,7 @@ h6 {
   border: 1px solid #fff;
   z-index: 99;
 }
+
 #banner .scrolldown .scroll:after {
   background: #fff;
   border-radius: 300px;
@@ -160,16 +172,20 @@ h6 {
 .owl-theme .owl-nav {
   /*default owl-theme theme reset .disabled:hover links */
 }
+
 .owl-theme .owl-nav [class*='owl-'] {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
+
 .owl-theme .owl-nav [class*='owl-'].disabled:hover {
   background-color: #D6D6D6;
 }
+
 #blog-post.owl-theme {
   position: relative;
 }
+
 #blog-post.owl-theme .owl-next,
 #blog-post.owl-theme .owl-prev {
   width: 22px;
@@ -178,9 +194,11 @@ h6 {
   position: absolute;
   top: 50%;
 }
+
 #blog-post.owl-theme .owl-prev {
   left: 10px;
 }
+
 #blog-post.owl-theme .owl-next {
   right: 10px;
 }
@@ -188,12 +206,15 @@ h6 {
 #features {
   padding: 100px 0 0;
 }
+
 #features .feature-block {
   padding-bottom: 35px;
 }
+
 #features .feature-block .icon-box {
   margin-bottom: 24px;
 }
+
 #features .feature-block .icon-box i {
   display: inline-block;
   line-height: 1;
@@ -201,6 +222,7 @@ h6 {
   transition: 0.3s;
   color: #80d6a3;
 }
+
 #features .feature-block h4 {
   font-size: 20px;
   color: #333;
@@ -209,6 +231,7 @@ h6 {
   margin-bottom: 10px;
   font-weight: 400;
 }
+
 #features .feature-block p {
   font-size: 15px;
   color: #888;
@@ -304,14 +327,15 @@ h6 {
 }
 
 #header-white .navbar {
-    background-color: #3F51B5;
-    border-bottom: 1px solid #3F51B5; 
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff; 
 }
 
 #header-white #navbar a, #header-white #navbar a:visited, #header-white #navbar a:focus {
     color: #000000;
     text-decoration: none;
     background-color: #ffffff;
+    /*background-color: #000000;*/
 }
 
 #header-white .emphasize {
@@ -405,26 +429,25 @@ a, a:visited, a:hover, a:focus {
 }
 
 
-#body {
-    background-color: #E8F5E9;
-    color: #000000;
-    padding-bottom: 15px;
-}
-
-#hero  {
-    background-color: #E8F5E9;
+#body-white{
+    background-color: #ffffff;
     color: #000000;
 }
 
+#body-ligth-green {
+    background-color: #E8F5E9;
+    color: #000000;
+}
 
-.body-dark {
+#body-dark {
     background-color: #171717;
     color: #ffffff;
 }
 
 #article-list {
     /*background-color: #222222;*/
-     background-color: #A5D6A7;
+     /*background-color: #A5D6A7;*/
+     background-color: #81C784;
     padding: 15px;
     min-height: 250px;
     color: #ffffff;
@@ -432,8 +455,8 @@ a, a:visited, a:hover, a:focus {
 }
 
 #article-list .nav {
-    border-bottom: 1px solid #656466;
-    color: #888888;
+    border-bottom: 1px solid #01579B;
+    color: #424242;
 }
 
 #article-list .nav > li {
@@ -441,40 +464,46 @@ a, a:visited, a:hover, a:focus {
 }
 
 #stacks {
-    color: #696969;
+    color: #01579B;
     font-size: 14px;
 }
 
 /* Stack filter box */
 #article-list .form-control {
+    color: #01579B;
     /*background-color: #222222;*/
-     background-color: #A5D6A7;
+     /*background-color: #A5D6A7;*/
+     background-color: #81C784;
 }
 
 #article-list .btn-default {
    /*background-color: #222222;*/
-    background-color: #A5D6A7;
+   /*background-color: #A5D6A7;*/
+     background-color: #81C784;
     border: none;
     font-size: 14px;
-    color: #696969;
+    color: #01579B;
     padding-top: 10px;
 }
 
 /* Help on stack filter box */
 #article-list .popover-title {
     /*background-color: #222222;*/
-     background-color: #A5D6A7;
-    border-bottom: 1px solid #696969;
+     /*background-color: #A5D6A7;*/
+     background-color: #81C784;
+    /*border-bottom: 1px solid #696969;01579B*/
+    border-bottom: 1px solid #01579B;
 }
 
 #article-list .dropdown-menu {
     /*background-color: #222222;*/
-     background-color: #A5D6A7;
+     /*background-color: #A5D6A7;*/
+     background-color: #81C784;
 }
 
 /* 'X' button on stack filter box */
 #article-list .dropdown-menu .close {
-    color: #212121;
+    color: #01579B;
 }
 
 #article-list .dropdown-menu li a:hover {
@@ -482,17 +511,22 @@ a, a:visited, a:hover, a:focus {
 }
 
 #article-list .nav li a.active, #article-list .nav li a.active:visited, #article-list .nav li a.active:focus, #article-list .nav li.active:hover {
-    color: #212121;
+    /*color: #212121;*/
+    color: #01579B;
     /*background-color: #222222;*/
-     background-color: #A5D6A7;
-    border-bottom: 5px solid #4CAF50;
+     background-color: #81C784;
+    /*border-bottom: 5px solid #4CAF50;*/
+     border-bottom: 5px solid #01579B;
     font-weight: 500;
 }
 
 #article-list .nav li a, #article-list .nav li a:visited, #article-list .nav li a:focus, #article-list .nav li:hover {
-    color: #212121;
+    /*color: #212121;*/
+    color: #01579B;
     /*background-color: #222222;*/
-     background-color: #A5D6A7;
+    /*background-color: #A5D6A7;*/
+     background-color: #81C784;
+     
 }
 
 /* Override button size for the bootstrap-select buttons to account for our
@@ -513,7 +547,7 @@ a, a:visited, a:hover, a:focus {
 }*/
 
 .article-teaser {
-    background-color: #E0E0E0;
+    background-color: #C8E6C9;
     margin-right: 30px;
     margin-top: 15px;
     padding-left: 0px;
@@ -538,7 +572,7 @@ a, a:visited, a:hover, a:focus {
 .article-teaser:hover {
     color: #4CAF50;
     /*background-color: #414042;*/
-    background-color: #F5F5F5;
+    background-color: #E8F5E9;
 }
 
 .article-teaser .article-author {
